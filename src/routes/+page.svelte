@@ -15,9 +15,9 @@
     <Navbar />
 </topbar>
 <imagetitle class="mx-auto mt-28 grid place-items-center w-10/12">
-    <h1 class="text-orange-400 self-center text-8xl font-bold mb-20">Hi, I'm Keshav!</h1>
+    <h1 class="text-rose-400 self-center text-8xl font-bold mb-1">Hi, I'm Keshav!</h1>
     <content class="flex justify-around border">
-        <textContent class="text-xl my-36 w-1/2 ">
+        <textContent class="text-2xl my-36 w-1/2 ">
             <p class="w-full leading-10">
                 Glad you could make it! I am a senior computer science student
                 at Georgia Institute of Technology. I am interested in backend
