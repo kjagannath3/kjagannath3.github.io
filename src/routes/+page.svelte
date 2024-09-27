@@ -17,8 +17,8 @@
 <imagetitle class="mx-auto mt-28 grid place-items-center w-10/12">
     <h1 class="text-red-400 self-center text-3xl font-bold">Hi, I'm Keshav!</h1>
     <content class="flex justify-around border">
-        <textContent class="mt-24 ml-3 w-1/4">
-            <p>
+        <textContent class="text-xl my-36 w-1/2 ">
+            <p class="w-full leading-10">
                 Glad you could make it! I am a senior computer science student
                 at Georgia Institute of Technology. I am interested in backend
                 development, IOT, music tech, and cloud applications. I am
@@ -28,7 +28,7 @@
         </textContent>
         <div>
             <img
-                class="w-[300px] h-auto rounded-full ml-auto"
+                class="w-[250px] my-24 h-auto rounded-full ml-0"
                 alt=""
                 src="keshav-jagannath-headshot.jpg"
             />
