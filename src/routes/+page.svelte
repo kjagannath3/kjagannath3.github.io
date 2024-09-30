@@ -36,7 +36,7 @@
     </content>
 </imagetitle>
 <callToAction class="mx-auto mt-64 grid place-items-center">
-    <h3 class="text-3xl font-bold">Let's get in touch!</h3>
-        <a class="my-5" href="mailto:keshavjagannath123@gmail.com"> Send me an email!</a>
+    <h3 class="text-5xl font-bold text-rose-400">Let's get in touch!</h3>
+        <a class="my-5 mb-96 text-2xl font-bold text-blue-800 duration-150 hover:text-rose-400 " href="mailto:keshavjagannath123@gmail.com"> Send me an email!</a>
 </callToAction>
 </body>
