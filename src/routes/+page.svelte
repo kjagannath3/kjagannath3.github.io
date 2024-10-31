@@ -43,10 +43,19 @@
             Here are some of the companies I have worked for!
         </h1>
         <companyList class="flex mt-10 w-9/12 border">
-            <InterestItem title="Abercrombie & Fitch"/>
-            <InterestItem title="Protiviti"/>
-            <InterestItem title="Cognosos"/>
-            <InterestItem title="Carvana"/>
+            <InterestItem
+                title="Abercrombie & Fitch"
+                description="I worked at Abercrombie and Fitch!"
+            />
+            <InterestItem
+                title="Protiviti"
+                description="I worked at Protiviti!"
+            />
+            <InterestItem
+                title="Cognosos"
+                description="I worked at Cognosos!"
+            />
+            <InterestItem title="Carvana" description="I worked at Carvana!" />
         </companyList>
     </internships>
     <projects class="mx-auto mt-28 grid place-items-center w-11/12">
@@ -54,10 +63,22 @@
             Here are some of the projects I have worked on
         </h1>
         <projectsList class="flex border">
-            <InterestItem title="Neovim/Tmux"/>
-            <InterestItem title="Golang"/>
-            <InterestItem title="Real Time Systems and Music Tech"/>
-            <InterestItem title="The Juce Framework"/>
+            <InterestItem
+                title="Guitar Effects Pedal"
+                description="I built a guitar pedal out of Arduino"
+            />
+            <InterestItem
+                title="Instrument Classification Neural Network"
+                description="I built a basic instrument classification network"
+            />
+            <InterestItem
+                title="EpiInfo CDC Application"
+                description="I helped, for my junior design class refactor the CDC's research"
+            />
+            <InterestItem
+                title="Hardware Servo Motor Controller"
+                description="I made the morse code guessing game"
+            />
         </projectsList></projects
     >
 
@@ -66,13 +87,24 @@
             Here are some tools & technologies that I really like
         </h1>
         <toolsList class="flex border">
-            <InterestItem title="Guitar Effects Pedal"/>
-            <InterestItem title="Instrument Classification Neural Network"/>
-            <InterestItem title="EpiInfo CDC Application"/>
-            <InterestItem title="Hardware Servo Motor Controller"/>
-            >
-        </toolsList></toolsILike
-    >
+            <InterestItem
+                title="Neovim/Tmux"
+                description="I am trying to get good at the command line"
+            />
+            <InterestItem
+                title="Golang"
+                description="I am very interested in Golang!"
+            />
+            <InterestItem
+                title="Music Tech"
+                description="Think of something witty to say for this later"
+            />
+            <InterestItem
+                title="The Juce Framework"
+                description="This is the main framework for programming music plugins"
+            /></toolsList
+        >
+    </toolsILike>
     <callToAction class="mx-auto mt-64 grid place-items-center">
         <h3 class="text-5xl font-bold text-rose-400">Let's get in touch!</h3>
         <a
