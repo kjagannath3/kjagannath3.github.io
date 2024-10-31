@@ -1,5 +1,8 @@
-<script></script>
+<script lang="ts">
+    let title: string = "ALERT: Add some text here";
+
+</script>
 
 <interestElement>
-    <h1>Hello World</h1>
+    <h1>{title}</h1>
 </interestElement>
