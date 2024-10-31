@@ -1,5 +1,6 @@
 <script lang="ts">
     import Navbar from "$lib/Navbar.svelte";
+    import InterestItem from "$lib/InterestItem.svelte";
     let name: string = "";
     let email: string = "";
     let content: string = "";
@@ -40,11 +41,36 @@
     <internships class="mx-auto mt-28 grid place-items-center w-10/12">
         <h1 class="text-rose-400 self-center text-5xl font-bold mb-1">
             Here are some of the companies I have worked for!
+            <companyList class="flex w-1/2 border"
+                ><h1 class="p-10">Abercrombie and Fitch</h1>
+                <h1 class="p-10">Protiviti</h1>
+                <h1 class="p-10">Cognosos</h1>
+                <h1 class="p-10">Carvana</h1>
+            </companyList>
         </h1>
     </internships>
-        <projects class="mx-auto mt-28 grid place-items-center w-10/12"><h1 class="text-rose-400 self-center text-5xl font-bold mb-1">Here are some of the projects I have worked on</h1></projects>
+    <projects class="mx-auto mt-28 grid place-items-center w-10/12">
+        <h1 class="text-rose-400 self-center text-5xl font-bold mb-1">
+            Here are some of the projects I have worked on
+        </h1>
+        <projectsList class="flex">
+        <InterestItem />
+        <InterestItem />
+        <InterestItem />
+        <InterestItem />
+    </projects>
 
-    <toolsILike class="mx=auto mt-28 grid place-items-center w-10/12"><h1 class="text-rose-400 self-center text-5xl font-bold mb-1">Here are some things that I really like </h1></toolsILike>
+    <toolsILike class="mx=auto mt-28 grid place-items-center w-12/12"
+        ><h1 class="text-rose-400 self-center text-5xl font-bold mb-1">
+            Here are some things that I really like
+        </h1>
+        <toolsList class="flex">
+            <h1 class="p-10">NeoVim + TMUX</h1>
+            <h1 class="p-10">Golang</h1>
+            <h1 class="p-10">Svelte</h1>
+            <h1 class="p-10">Real Time Systems and Music Tech</h1></toolsList
+        >
+    </toolsILike>
     <callToAction class="mx-auto mt-64 grid place-items-center">
         <h3 class="text-5xl font-bold text-rose-400">Let's get in touch!</h3>
         <a
