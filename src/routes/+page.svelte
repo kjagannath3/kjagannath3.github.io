@@ -42,7 +42,7 @@
         <h1 class="text-rose-400 self-center text-5xl font-bold mb-1">
             Here are some of the companies I have worked for!
         </h1>
-        <companyList class="flex mt-10 w-9/12 border">
+        <companyList class="flex border py-20 h-96 w-full place-items-center justify-center">
             <InterestItem
                 title="Abercrombie & Fitch"
                 description="I worked at Abercrombie and Fitch!"
@@ -58,11 +58,12 @@
             <InterestItem title="Carvana" description="I worked at Carvana!" />
         </companyList>
     </internships>
+
     <projects class="mx-auto mt-28 grid place-items-center w-11/12">
         <h1 class="text-rose-400 self-center text-5xl font-bold mb-1">
             Here are some of the projects I have worked on
         </h1>
-        <projectsList class="flex border">
+        <projectsList class="flex border py-20 h-96 w-full place-items-center justify-center">
             <InterestItem
                 title="Guitar Effects Pedal"
                 description="I built a guitar pedal out of Arduino"
@@ -86,7 +87,7 @@
         ><h1 class="text-rose-400 self-center text-5xl font-bold mb-1">
             Here are some tools & technologies that I really like
         </h1>
-        <toolsList class="flex border">
+        <toolsList class="flex border py-20 h-96 w-full place-items-center justify-center">
             <InterestItem
                 title="Neovim/Tmux"
                 description="I am trying to get good at the command line"
