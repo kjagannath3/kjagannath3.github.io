@@ -1,5 +1,4 @@
 <script lang="ts">
-    import Modal from "$lib/Modal.svelte";
     import Navbar from "$lib/Navbar.svelte";
     import InterestItem from "$lib/InterestItem.svelte";
     let name: string = "";
