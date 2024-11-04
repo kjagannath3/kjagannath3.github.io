@@ -9,9 +9,9 @@
 <!-- svelte-ignore a11y-no-static-element-interactions -->
 <!-- svelte-ignore a11y-click-events-have-key-events -->
 <interestElement
-    class="transition-all duration-400 px-10 pt-2 text-2xl {hover
-        ? 'h-full'
-        : 'h-2/3'} w-52 font-semibold text-indigo-400 border rounded mx-16 place-items-center text-center"
+    class="transition-all duration-400  pt-5 text-2xl {hover
+        ? 'h-auto'
+        : 'h-2/5'}  w-52 font-semibold text-slate-500 border rounded mx-16 place-items-center text-center"
     aria-label="Hoverable element"
     on:mouseenter={() => (hover = true)}
     on:mouseleave={() => (hover = false)}
@@ -21,7 +21,7 @@
 >
     <h1 class="">{title}</h1>
     <p
-        class="transition-all duration-75 text-sm text-black {hover
+        class="p-0 transition-all duration-200 text-sm text-black {hover
             ? 'opacity-100'
             : 'opacity-0'}"
     >
