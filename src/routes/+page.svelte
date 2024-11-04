@@ -44,7 +44,7 @@
             Take a look at some of the companies I have applied to!
         </h1>
         <Accordion>
-            <AccordionItem class="border ">
+            <AccordionItem>
                 <span slot="header">Abercrombie & Fitch</span>
                 <p class="mb-2 text-gray-500 dark:text-gray-400">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -63,7 +63,7 @@
                     top of Tailwind CSS.
                 </p>
             </AccordionItem>
-            <AccordionItem class="border">
+            <AccordionItem>
                 <span slot="header">Cognosos</span>
                 <p class="mb-2 text-gray-500 dark:text-gray-400">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -99,7 +99,7 @@
                     </li>
                 </ul>
             </AccordionItem>
-            <AccordionItem class="border">
+            <AccordionItem>
                 <span slot="header">Protiviti</span>
                 <p class="mb-2 text-gray-500 dark:text-gray-400">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -135,7 +135,7 @@
                     </li>
                 </ul>
             </AccordionItem>
-            <AccordionItem class="border">
+            <AccordionItem >
                 <span slot="header">Carvana</span>
                 <p class="mb-2 text-gray-500 dark:text-gray-400">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
