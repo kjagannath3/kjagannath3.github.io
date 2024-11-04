@@ -1,4 +1,5 @@
 <script lang="ts">
+    import Modal from "$lib/Modal.svelte";
     import Navbar from "$lib/Navbar.svelte";
     import InterestItem from "$lib/InterestItem.svelte";
     let name: string = "";
@@ -42,7 +43,9 @@
         <h1 class="text-rose-400 self-center text-5xl font-bold mb-1">
             Here are some of the companies I have worked for!
         </h1>
-        <companyList class="flex border py-20 h-96 w-full place-items-center justify-center">
+        <companyList
+            class="flex border py-20 h-96 w-full place-items-center justify-center"
+        >
             <InterestItem
                 title="Abercrombie & Fitch"
                 description="I worked at Abercrombie and Fitch!"
@@ -63,7 +66,9 @@
         <h1 class="text-rose-400 self-center text-5xl font-bold mb-1">
             Here are some of the projects I have worked on
         </h1>
-        <projectsList class="flex border py-20 h-96 w-full place-items-center justify-center">
+        <projectsList
+            class="flex border py-20 h-96 w-full place-items-center justify-center"
+        >
             <InterestItem
                 title="Guitar Effects Pedal"
                 description="I built a guitar pedal out of Arduino"
@@ -87,7 +92,9 @@
         ><h1 class="text-rose-400 self-center text-5xl font-bold mb-1">
             Here are some tools & technologies that I really like
         </h1>
-        <toolsList class="flex border py-20 h-96 w-full place-items-center justify-center">
+        <toolsList
+            class="flex border py-20 h-96 w-full place-items-center justify-center"
+        >
             <InterestItem
                 title="Neovim/Tmux"
                 description="I am trying to get good at the command line"
