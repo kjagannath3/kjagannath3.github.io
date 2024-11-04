@@ -179,7 +179,7 @@
             Take a look at some of the projects I have completed!
         </h1>
         <Accordion>
-            <AccordionItem class="border ">
+            <AccordionItem  >
                 <span slot="header">Guitar Distortion Pedal</span>
                 <p class="mb-2 text-gray-500 dark:text-gray-400">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -198,7 +198,7 @@
                     top of Tailwind CSS.
                 </p>
             </AccordionItem>
-            <AccordionItem class="border">
+            <AccordionItem >
                 <span slot="header">EpiInfo Application</span>
                 <p class="mb-2 text-gray-500 dark:text-gray-400">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -234,7 +234,7 @@
                     </li>
                 </ul>
             </AccordionItem>
-            <AccordionItem class="border">
+            <AccordionItem >
                 <span slot="header">Instrument Classification Neural Network</span>
                 <p class="mb-2 text-gray-500 dark:text-gray-400">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -270,7 +270,7 @@
                     </li>
                 </ul>
             </AccordionItem>
-            <AccordionItem class="border">
+            <AccordionItem >
                 <span slot="header">Assembly Morse Code Guessing Game</span>
                 <p class="mb-2 text-gray-500 dark:text-gray-400">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -313,7 +313,7 @@
             Take a look at some of the tools I currently like using
         </h1>
         <Accordion>
-            <AccordionItem class="border ">
+            <AccordionItem >
                 <span slot="header">Neovim + Tmux</span>
                 <p class="mb-2 text-gray-500 dark:text-gray-400">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -332,7 +332,7 @@
                     top of Tailwind CSS.
                 </p>
             </AccordionItem>
-            <AccordionItem class="border">
+            <AccordionItem >
                 <span slot="header">Golang</span>
                 <p class="mb-2 text-gray-500 dark:text-gray-400">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -368,7 +368,7 @@
                     </li>
                 </ul>
             </AccordionItem>
-            <AccordionItem class="border">
+            <AccordionItem >
                 <span slot="header">Svelte</span>
                 <p class="mb-2 text-gray-500 dark:text-gray-400">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -404,7 +404,7 @@
                     </li>
                 </ul>
             </AccordionItem>
-            <AccordionItem class="border">
+            <AccordionItem >
                 <span slot="header">Music Technology, Juce framework</span>
                 <p class="mb-2 text-gray-500 dark:text-gray-400">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -451,4 +451,4 @@
             Send me an email!</a
         >
     </callToAction>
-</body>
+
