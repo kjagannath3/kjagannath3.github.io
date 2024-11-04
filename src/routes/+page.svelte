@@ -30,10 +30,12 @@
             </div>
         </content>
     </imagetitle>
-    <internshipList>
+    <internshipList class="grid place-items-center">
         <h1 class="text-5xl font-bold text-rose-400">
             Take a look at some of the companies I have applied to!
         </h1>
+        <AccordionElement />
+        <AccordionElement />
         <AccordionElement />
     </internshipList>
     <callToAction class="mx-auto mt-64 grid place-items-center">
