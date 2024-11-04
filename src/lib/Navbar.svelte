@@ -5,7 +5,7 @@
 >
     <navLinks class="items-center font-bold text-white">
         <a
-            class="mx-28 text-hover:text-rose-400 duration-150"
+            class="mx-28 hover:text-rose-400 duration-150"
             href="https://github.com/kjagannath3">Github</a
         >
         <a
