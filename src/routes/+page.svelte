@@ -1,15 +1,6 @@
 <script lang="ts">
-    import { AccordionItem, Accordion } from "flowbite-svelte";
+    import AccordionElement from "$lib/AccordionElement.svelte";
     import Navbar from "$lib/Navbar.svelte";
-    import InterestItem from "$lib/InterestItem.svelte";
-    let name: string = "";
-    let email: string = "";
-    let content: string = "";
-    function getContent() {
-        console.log(name == "" ? "No name yet" : name);
-        console.log(email == "" ? "No email yet" : email);
-        console.log(content == "" ? "No content yet" : content);
-    }
 </script>
 
 <body class="bg-gray-50">
@@ -43,63 +34,7 @@
         <h1 class="text-5xl font-bold text-rose-400">
             Take a look at some of the companies I have applied to!
         </h1>
-        <Accordion>
-            <AccordionItem>
-                <span slot="header">My Header 1</span>
-                <p class="mb-2 text-gray-500 dark:text-gray-400">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Illo ab necessitatibus sint explicabo ...
-                </p>
-                <p class="text-gray-500 dark:text-gray-400">
-                    Check out this guide to learn how to <a
-                        href="/"
-                        target="_blank"
-                        rel="noreferrer"
-                        class="text-blue-600 dark:text-blue-500 hover:underline"
-                    >
-                        get started
-                    </a>
-                    and start developing websites even faster with components on
-                    top of Tailwind CSS.
-                </p>
-            </AccordionItem>
-            <AccordionItem>
-                <span slot="header">My Header 2</span>
-                <p class="mb-2 text-gray-500 dark:text-gray-400">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Illo ab necessitatibus sint explicabo ...
-                </p>
-                <p class="mb-2 text-gray-500 dark:text-gray-400">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Illo ab necessitatibus sint explicabo ...
-                </p>
-                <p class="mb-2 text-gray-500 dark:text-gray-400">
-                    Learn more about these technologies:
-                </p>
-                <ul class="list-disc ps-5 dark:text-gray-400 text-gray-500">
-                    <li>
-                        <a
-                            href="/"
-                            target="_blank"
-                            rel="noreferrer"
-                            class="text-blue-600 dark:text-blue-500 hover:underline"
-                        >
-                            Lorem ipsum
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            href="https://tailwindui.com/"
-                            rel="noreferrer"
-                            target="_blank"
-                            class="text-blue-600 dark:text-blue-500 hover:underline"
-                        >
-                            Tailwind UI
-                        </a>
-                    </li>
-                </ul>
-            </AccordionItem>
-        </Accordion>
+        <AccordionElement />
     </internshipList>
     <callToAction class="mx-auto mt-64 grid place-items-center">
         <h3 class="text-5xl font-bold text-rose-400">Let's get in touch!</h3>
