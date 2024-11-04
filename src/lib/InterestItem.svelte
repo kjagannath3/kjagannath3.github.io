@@ -27,8 +27,4 @@
     >
         {description}
     </p>
-    <modal class="{modalVisibility ? 'visible':'hidden'}">
-        <h1>{title}</h1>
-        <p>{blurb}</p>
-    </modal>
 </interestElement>
