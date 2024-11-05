@@ -5,14 +5,15 @@
 	let defaultImagePath: string = "defaultImage.png"
 </script>
 
-<accordion class="flex">
+<accordion class="flex w-4/5 mt-20">
 <img src={defaultImagePath} alt="" >
-	<mainAccordion>
+	<mainAccordion class="ml-32">
 		<h1>
 			"Sed ut perspiciatis unde omnis iste natus error sit voluptatem
 			accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
 			quae a
 		</h1>
+		
 		 illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
 		Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
 		sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
