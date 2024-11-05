@@ -40,7 +40,7 @@
         <AccordionElement title="Protiviti" />
         <AccordionElement title="Carvana" />
     </internshipList>
-    <projectsList class="grid place-items-center">
+    <projectsList class="grid place-items-center  ">
         <h1 class="text-5xl font-bold text-rose-400">
             Take a look at some of the projects I have completed!
         </h1>

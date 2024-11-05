@@ -22,9 +22,9 @@ import AccordionElement from "./AccordionElement.svelte";
 	let defaultImagePath: string = "defaultImage.png";
 </script>
 
-<accordion class="flex w-4/5 mt-20">
-	<img src={defaultImagePath} alt="" />
-	<mainAccordion class="ml-32">
+<accordion class="flex place-items-center mt-20 w-4/5 border">
+    <img src={defaultImagePath} alt="" class="">
+	<mainAccordion class="grid place-items-center w-full">
 		<h1>
             This is the accordion
 		</h1>
