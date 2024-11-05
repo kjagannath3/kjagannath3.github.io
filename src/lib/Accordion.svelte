@@ -1,28 +1,37 @@
 <script lang="ts">
-	import AccordionElement from "./AccordionElement.svelte";
+import AccordionElement from "./AccordionElement.svelte";
 
-	let AccordionElements: Array<AccordionElement> = [];
-	let defaultImagePath: string = "defaultImage.png"
+	let accordionElements: Array<AccordionElement> = [
+		{
+			title: "This is a default title 1",
+			blurb: "This is a default blurb 1",
+		},
+		{
+			title: "This is a default title 2",
+			blurb: "This is a default blurb 2",
+		},
+		{
+			title: "This is a default title 3",
+			blurb: "This is a default blurb 3",
+		},
+		{
+			title: "This is a default title 4",
+			blurb: "This is a default blurb 4",
+		},
+	];
+	let defaultImagePath: string = "defaultImage.png";
 </script>
 
 <accordion class="flex w-4/5 mt-20">
-<img src={defaultImagePath} alt="" >
+	<img src={defaultImagePath} alt="" />
 	<mainAccordion class="ml-32">
 		<h1>
-			"Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-			accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-			quae a
+            This is the accordion
 		</h1>
-		
-		 illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-		Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
-		sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
-		Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
-		adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore
-		et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis
-		nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid
-		ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea
-		voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem
-		eum fugiat quo voluptas nulla pariatur?"
+
+		{#each accordionElements as child(child.title)}
+            <AccordionElement title={child.title} blurb={child.blurb} />    
+        {/each}
 	</mainAccordion>
+
 </accordion>
