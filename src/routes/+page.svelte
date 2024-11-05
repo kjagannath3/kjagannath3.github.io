@@ -1,4 +1,5 @@
 <script lang="ts">
+    import Accordion from "$lib/Accordion.svelte";
     import AccordionElement from "$lib/AccordionElement.svelte";
     import Navbar from "$lib/Navbar.svelte";
 </script>
@@ -34,11 +35,17 @@
         <h1 class="text-5xl font-bold text-rose-400">
             Take a look at some of the companies I have applied to!
         </h1>
-        <AccordionElement title="Abercrombie & Fitch"/>
-        <AccordionElement title="Cognosos"/>
-        <AccordionElement title="Protiviti"/>
-        <AccordionElement title="Carvana"/>
+        <AccordionElement title="Abercrombie & Fitch" />
+        <AccordionElement title="Cognosos" />
+        <AccordionElement title="Protiviti" />
+        <AccordionElement title="Carvana" />
     </internshipList>
+    <projectsList class="grid place-items-center">
+        <h1 class="text-5xl font-bold text-rose-400">
+            Take a look at some of the projects I have completed!
+        </h1>
+        <Accordion />
+    </projectsList>
     <callToAction class="mx-auto mt-64 grid place-items-center">
         <h3 class="text-5xl font-bold text-rose-400">Let's get in touch!</h3>
         <a
