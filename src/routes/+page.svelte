@@ -36,7 +36,7 @@
     <internshipList
         class=" flex flex-wrap justify-center items-center w-10/12 mx-auto h-screen self-center"
     >
-        <InterestItem title="Abercrombie & Fitch" />
+        <InterestItem title="Abercrombie & Fitch" imagePath="abercrombie.png" />
         <InterestItem title="Protiviti" />
         <InterestItem title="Cognosos" />
         <InterestItem title="Carvana" />
