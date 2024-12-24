@@ -2,6 +2,7 @@
     import Accordion from "$lib/Accordion.svelte";
     import AccordionElement from "$lib/AccordionElement.svelte";
     import Navbar from "$lib/Navbar.svelte";
+    import InterestItem from "$lib/InterestItem.svelte";
 </script>
 
 <body class="bg-gray-50">
@@ -26,33 +27,18 @@
                 <img
                     class="w-[250px] my-24 h-auto rounded-full ml-0"
                     alt=""
-                    src="keshav-jagannath-headshot.jpg"
+                    src="grad_photo.jpg"
                 />
             </div>
         </content>
     </imagetitle>
-    <internshipList class="grid place-items-center">
-        <h1 class="text-5xl font-bold text-rose-400">
-            Take a look at some of the companies I have applied to!
-        </h1>
-        <AccordionElement title="Abercrombie & Fitch" />
-        <AccordionElement title="Cognosos" />
-        <AccordionElement title="Protiviti" />
-        <AccordionElement title="Carvana" />
+    <h1 class="font-bold text-center text-3xl pb-10">Take a look at some of the internships I've completed!</h1>
+    <internshipList
+        class=" flex flex-wrap justify-center items-center w-10/12 mx-auto h-screen self-center"
+    >
+        <InterestItem title="Abercrombie & Fitch" />
+        <InterestItem title="Protiviti" />
+        <InterestItem title="Cognosos" />
+        <InterestItem title="Carvana" />
     </internshipList>
-    <projectsList class="grid place-items-center  ">
-        <h1 class="text-5xl font-bold text-rose-400">
-            Take a look at some of the projects I have completed!
-        </h1>
-        <Accordion />
-    </projectsList>
-    <callToAction class="mx-auto mt-64 grid place-items-center">
-        <h3 class="text-5xl font-bold text-rose-400">Let's get in touch!</h3>
-        <a
-            class="my-5 mb-96 text-2xl font-bold text-blue-800 duration-150 hover:text-rose-400"
-            href="mailto:keshavjagannath123@gmail.com"
-        >
-            Send me an email!</a
-        >
-    </callToAction>
 </body>
