@@ -1,13 +1,32 @@
 <script lang="ts">
-    import { AccordionItem } from "./components/ui/accordion";
+    import CustomAccordionItem from "./CustomAccordionItem.svelte";
 
-    interface AccordionItem {
+    interface IAccordionItem {
         title: string;
         description: string;
-        isOpen?: boolean;
+        isOpen: boolean;
     }
+    let accordionItemsList: IAccordionItem[] = [
+        {
+            title: "First Item",
+            description: "Description for first item",
+            isOpen: true,
+        },
+        {
+            title: "Second Item",
+            description: "Description for second item",
+            isOpen: true,
+        },
+    ];
 </script>
 
 <accordion class="flex place-items-center mt-20 w-4/5 border">
-    <h1>Hello World</h1>
+    {#each accordionItemsList as item}
+        <CustomAccordionItem
+            title={item.title}
+            description={item.description}
+            isOpen={item.isOpen}
+        />
+    {/each}
 </accordion>
+

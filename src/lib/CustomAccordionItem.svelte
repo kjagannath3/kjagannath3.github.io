@@ -1,7 +1,7 @@
 <script lang="ts">
-    let title: string | null = "Default Title";
-    let description: string | null = "Default description";
-    let isOpen: boolean = false;
+    export let title: string;
+    export let description: string;
+    export let isOpen: boolean;
 </script>
 
 <accordionItem>

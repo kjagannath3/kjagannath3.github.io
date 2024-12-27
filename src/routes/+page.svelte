@@ -1,6 +1,7 @@
 <script lang="ts">
     import Navbar from "$lib/Navbar.svelte";
     import InterestItem from "$lib/InterestItem.svelte";
+    import Accordion from "$lib/Accordion.svelte";
 </script>
 
 <body class="bg-gray-50">
@@ -41,4 +42,5 @@
         <InterestItem title="Cognosos" />
         <InterestItem title="Carvana" />
     </internshipList>
+    <Accordion />
 </body>
