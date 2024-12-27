@@ -1,37 +1,14 @@
 <script lang="ts">
-import AccordionElement from "./AccordionElement.svelte";
+    import type { StringExpressionOperatorReturningBoolean } from "mongoose";
+    import { AccordionItem } from "./components/ui/accordion";
 
-	let accordionElements: Array<AccordionElement> = [
-		{
-			title: "This is a default title 1",
-			blurb: "This is a default blurb 1",
-		},
-		{
-			title: "This is a default title 2",
-			blurb: "This is a default blurb 2",
-		},
-		{
-			title: "This is a default title 3",
-			blurb: "This is a default blurb 3",
-		},
-		{
-			title: "This is a default title 4",
-			blurb: "This is a default blurb 4",
-		},
-	];
-	let defaultImagePath: string = "defaultImage.png";
+    interface AccordionItem {
+        title: string;
+        description: string;
+        isOpen?: boolean;
+    }
 </script>
 
 <accordion class="flex place-items-center mt-20 w-4/5 border">
-    <img src={defaultImagePath} alt="" class="">
-	<mainAccordion class="grid place-items-center w-full">
-		<h1>
-            This is the accordion
-		</h1>
-
-		{#each accordionElements as child(child.title)}
-            <AccordionElement title={child.title} blurb={child.blurb} />    
-        {/each}
-	</mainAccordion>
-
+    <h1>Hello World</h1>
 </accordion>

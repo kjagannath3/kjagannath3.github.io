@@ -1,8 +1,7 @@
 <script lang="ts">
-    import Accordion from "$lib/Accordion.svelte";
-    import AccordionElement from "$lib/AccordionElement.svelte";
     import Navbar from "$lib/Navbar.svelte";
     import InterestItem from "$lib/InterestItem.svelte";
+    import  Accordion   from "$lib/Accordion.svelte";
 </script>
 
 <body class="bg-gray-50">
@@ -32,7 +31,9 @@
             </div>
         </content>
     </imagetitle>
-    <h1 class="font-bold text-center text-3xl pb-10">Take a look at some of the internships I've completed!</h1>
+    <h1 class="font-bold text-center text-3xl pb-10">
+        Take a look at some of the internships I've completed!
+    </h1>
     <internshipList
         class=" flex flex-wrap justify-center items-center w-10/12 mx-auto h-screen self-center"
     >
@@ -41,4 +42,5 @@
         <InterestItem title="Cognosos" />
         <InterestItem title="Carvana" />
     </internshipList>
+    <Accordion />
 </body>
