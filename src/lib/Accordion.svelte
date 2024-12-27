@@ -1,5 +1,4 @@
 <script lang="ts">
-    import type { StringExpressionOperatorReturningBoolean } from "mongoose";
     import { AccordionItem } from "./components/ui/accordion";
 
     interface AccordionItem {
