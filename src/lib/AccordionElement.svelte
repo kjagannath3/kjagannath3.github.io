@@ -7,7 +7,7 @@
 </script>
 
 <accordionElement
-    class="transition-all duration-200 grid place-items-center w-3/5 text-center my-1"
+    class="transition-all duration-200 grid  w-3/5 text-center my-1"
 >
     <button
         on:click={() => {
@@ -21,11 +21,11 @@
 
 
     <button
-        class="transition-all duration-100 bg-slate-50 overflow-hidden items-center justify-center text-center {visible
+        class="transition-all duration-100 bg-slate-50 overflow-hidden flex items-center justify-left text-center {visible
             ? 'h-full'
             : 'h-0'}">
 
-    <img src={imgPath} alt="" class="" />
+    <img src={imgPath} alt="" class="self-center h-24 w-24 object-cover rounded-full " />
 
 
         {blurb}</button

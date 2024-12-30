@@ -13,47 +13,47 @@
     let companiesList: Array<IAccordionElement> = [
         {
             "title": "Abercrombie & Fitch",
-            "blurb": "This is the abercrombie and fitch blurb",
+            "blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc id aliquam tincidunt, nisl nunc tincidunt nisi, vitae aliquam eros dolor vitae erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.",
             "imgPath": "abercrombie.png"
         },
 
         {
             "title": "Cognosos",
-            "blurb": "This is the Cognosos blurb",
+            "blurb": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
             "imgPath": "cognosos.png"
         },
 
         {
             "title": "Protiviti",
-            "blurb": "This is the Protiviti blurb",
+            "blurb": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.",
             "imgPath": "protiviti.png"
         },
 
         {
             "title": "Carvana",
-            "blurb": "This is the Carvana blurb",
+            "blurb": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea.",
             "imgPath": "carvana.png"
         }
     ]
     let projectsList: Array<IAccordionElement> = [
         {
             "title": "Instrument Classification Neural Network",
-            "blurb": "This is the instrument classification neural network blurb"
+            "blurb": "Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus."
         },
 
         {
             "title": "FPGA morse code guessing game",
-            "blurb": "This is the morse codee guessing game blurb"
+            "blurb": "Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur."
         },
 
         {
             "title": "EpiInfo Application",
-            "blurb": "This is the EpiInfo Application blurb"
+            "blurb": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam."
         },
 
         {
             "title": "Guitar Distortion Pedal",
-            "blurb": "This is the Guitar Distortion Pedal blurb"
+            "blurb": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate."
         }
     ]
 

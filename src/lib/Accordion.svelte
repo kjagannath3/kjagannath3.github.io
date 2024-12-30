@@ -2,8 +2,14 @@
     import AccordionElement from "./AccordionElement.svelte";
     import { onMount } from "svelte";
     let currentVisibleTitle: string | null = null;
-
-    export let accordionElements: Array<AccordionElement> = [
+    
+    interface IAccordionElement {
+        title: string;
+        blurb: string;
+        imgPath?: string;  // Optional because projects don't have images
+        visible?: boolean;  // Optional for accordion state
+    }
+    export let accordionElements: Array<IAccordionElement> = [
         {
             title: "This is a default title 1",
             blurb: "This is a default blurb 1",
@@ -24,7 +30,7 @@
 
 </script>
 
-<accordion class="flex place-items-center mt-20 w-4/5 border min-h-[300px]">
+<accordion class="flex  mt-20 w-4/5 border min-h-[300px]">
     <mainAccordion
         class="grid place-items-center w-full overflow-y-auto min-h-[300px]"
     >
