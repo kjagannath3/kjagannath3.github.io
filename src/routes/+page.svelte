@@ -2,28 +2,40 @@
     import Accordion from "$lib/Accordion.svelte";
     import AccordionElement from "$lib/AccordionElement.svelte";
     import Navbar from "$lib/Navbar.svelte";
-    let companiesList: Array<AccordionElement> = [
+    
+    interface IAccordionElement {
+        title: string;
+        blurb: string;
+        imgPath?: string;  // Optional because projects don't have images
+        visible?: boolean;  // Optional for accordion state
+    }
+    
+    let companiesList: Array<IAccordionElement> = [
         {
             "title": "Abercrombie & Fitch",
-            "blurb": "This is the abercrombie and fitch blurb"
+            "blurb": "This is the abercrombie and fitch blurb",
+            "imgPath": "abercrombie.png"
         },
 
         {
             "title": "Cognosos",
-            "blurb": "This is the Cognosos blurb"
+            "blurb": "This is the Cognosos blurb",
+            "imgPath": "cognosos.png"
         },
 
         {
             "title": "Protiviti",
-            "blurb": "This is the Protiviti blurb"
+            "blurb": "This is the Protiviti blurb",
+            "imgPath": "protiviti.png"
         },
 
         {
             "title": "Carvana",
-            "blurb": "This is the Carvana blurb"
+            "blurb": "This is the Carvana blurb",
+            "imgPath": "carvana.png"
         }
     ]
-    let projectsList: Array<AccordionElement> = [
+    let projectsList: Array<IAccordionElement> = [
         {
             "title": "Instrument Classification Neural Network",
             "blurb": "This is the instrument classification neural network blurb"
