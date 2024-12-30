@@ -1,7 +1,7 @@
 <script lang="ts">
 import AccordionElement from "./AccordionElement.svelte";
 
-	let accordionElements: Array<AccordionElement> = [
+	export let accordionElements: Array<AccordionElement> = [
 		{
 			title: "This is a default title 1",
 			blurb: "This is a default blurb 1",
@@ -19,15 +19,12 @@ import AccordionElement from "./AccordionElement.svelte";
 			blurb: "This is a default blurb 4",
 		},
 	];
-	let defaultImagePath: string = "defaultImage.png";
+	export let imagePath: string = "defaultImage.png";
 </script>
 
 <accordion class="flex place-items-center mt-20 w-4/5 border min-h-[300px]">
-    <img src={defaultImagePath} alt="" class="">
+    <img src={imagePath} alt="" class="">
 	<mainAccordion class="grid place-items-center w-full overflow-y-auto min-h-[300px]">
-		<h1>
-            This is the accordion
-		</h1>
 
 		{#each accordionElements as child(child.title)}
             <AccordionElement title={child.title} blurb={child.blurb} />    

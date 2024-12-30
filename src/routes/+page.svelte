@@ -2,6 +2,50 @@
     import Accordion from "$lib/Accordion.svelte";
     import AccordionElement from "$lib/AccordionElement.svelte";
     import Navbar from "$lib/Navbar.svelte";
+    let companiesList: Array<AccordionElement> = [
+        {
+            "title": "Abercrombie & Fitch",
+            "blurb": "This is the abercrombie and fitch blurb"
+        },
+
+        {
+            "title": "Cognosos",
+            "blurb": "This is the Cognosos blurb"
+        },
+
+        {
+            "title": "Protiviti",
+            "blurb": "This is the Protiviti blurb"
+        },
+
+        {
+            "title": "Carvana",
+            "blurb": "This is the Carvana blurb"
+        }
+    ]
+    let projectsList: Array<AccordionElement> = [
+        {
+            "title": "Instrument Classification Neural Network",
+            "blurb": "This is the instrument classification neural network blurb"
+        },
+
+        {
+            "title": "FPGA morse code guessing game",
+            "blurb": "This is the morse codee guessing game blurb"
+        },
+
+        {
+            "title": "EpiInfo Application",
+            "blurb": "This is the EpiInfo Application blurb"
+        },
+
+        {
+            "title": "Guitar Distortion Pedal",
+            "blurb": "This is the Guitar Distortion Pedal blurb"
+        }
+    ]
+
+    
 </script>
 
 <body class="bg-gray-50">
@@ -35,16 +79,13 @@
         <h1 class="text-5xl font-bold text-rose-400">
             Take a look at some of the companies I have applied to!
         </h1>
-        <AccordionElement title="Abercrombie & Fitch" />
-        <AccordionElement title="Cognosos" />
-        <AccordionElement title="Protiviti" />
-        <AccordionElement title="Carvana" />
+        <Accordion accordionElements={companiesList} />
     </internshipList>
     <projectsList class="grid place-items-center  ">
         <h1 class="text-5xl font-bold text-rose-400">
             Take a look at some of the projects I have completed!
         </h1>
-        <Accordion />
+        <Accordion accordionElements={projectsList}/>
     </projectsList>
     <callToAction class="mx-auto mt-64 grid place-items-center">
         <h3 class="text-5xl font-bold text-rose-400">Let's get in touch!</h3>
